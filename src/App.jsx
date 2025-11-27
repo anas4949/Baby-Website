@@ -10,7 +10,7 @@ import ProductDetail from "./Pages/ProductDetail";
 import CollectionDetail from "./Pages/CollectionDetail";
 import Checkout from "./Pages/Checkout";
 import OrderSuccess from "./Pages/OrderSuccess";
-import './app.css'
+import './App.css';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Home from "./Pages/Home";
