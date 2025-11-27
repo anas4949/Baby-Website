@@ -1,6 +1,5 @@
 .blink-sale {
-  /* font-size: 2rem; */
-  /* font-weight:medium; */
+
   padding: 12px 24px;
   border-radius: 8px;
   text-transform: uppercase;
@@ -11,12 +10,12 @@
   animation: blink 1s steps(2, start) infinite, glow 1.5s ease-in-out infinite;
 }
 
-/* ON/OFF blink effect */
+
 @keyframes blink {
   50% { opacity: 0; }
 }
 
-/* Glowing effect */
+
 @keyframes glow {
   0%, 100% { box-shadow: 0 0 10px #ff1e56, 0 0 20px #ffac41; }
   50% { box-shadow: 0 0 30px #ff1e56, 0 0 60px #ffac41; }
